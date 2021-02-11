@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@test-4759/test-lib": ["libs/test-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
